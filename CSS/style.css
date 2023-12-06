@@ -1,14 +1,17 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+
 html {
-    font-family: 'Segoe UI', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     text-align: center;
+ 
+
 }
+
 
 a{
     text-decoration: none;
@@ -31,7 +34,7 @@ a{
 .users-form form input[type=password],
 .users-form form input[type=email]{
     padding: 8px;
-    border:2px solid #0ad8ce;
+    border:2px solid #f325e9;
     border-radius:4px;
     outline:none;
     transition:.3s;
@@ -53,7 +56,7 @@ a{
     border-radius: 5px;
     background-color: rgb(255, 255, 255); 
     color: black; 
-    border: 2px solid #00a179;
+    border: 2px solid #b828e4;
 }
 
 .users-form form input[type=submit]:hover {
@@ -71,7 +74,7 @@ a{
 }
 
 table tr {
-    background-color: #f8f8f8;
+    background-color: #a9a2e9;
     border: 1px solid #ddd;
     padding: 4px;
 }
