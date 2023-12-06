@@ -9,6 +9,8 @@ $query = mysqli_query($con, $sql);
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,10 +20,11 @@ $query = mysqli_query($con, $sql);
 </head>
 
 <body>
+    <body background="fondo.png">
     <div class="users-form">
-        <h1>Inventario</h1>
+        <h1>Productos de Belleza </h1>
         <form action="insert_user.php" method="POST">
-            <input type="text" name="name" placeholder="Nombre">
+            <input type="text" name="name" placeholder="Producto">
             <input type="text" name="des" placeholder="Descripcion">
             <input type="text" name="precio" placeholder="Precio">
             <input type="submit" value="Agregar">
@@ -35,7 +38,7 @@ $query = mysqli_query($con, $sql);
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Nombre</th>
+                    <th>Producto</th>
                     <th>Descripcion</th>
                     <th>Precio</th>
                     <th></th>
